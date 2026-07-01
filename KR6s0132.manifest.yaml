@@ -1,0 +1,120 @@
+canonical_identifier: bkk:krp/KR6s0132/v1
+canonical_location: https://kanripo.org/bkk/KR6s0132/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 新編諸宗教藏總錄
+  identifiers:
+    alt_id:
+    - T55n2184
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T55/T55n2184.xml
+    old_id: T55n2184
+  edition:
+    short: bkk
+editions:
+- short: 甲
+  label: 甲
+  source_xml_id: wit1
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6s0132_000.yaml, hash: 'sha256:402d8fdbe5205c4785c1d935611e8c4b181523bc4c5c50440d2398e93fed0d9c'}
+  - {seq: 1, filename: KR6s0132_001.yaml, hash: 'sha256:c95b8c1bef3a04af1ff17f9f1dfca1336a04ed1f24820ad31538f246295eb13d'}
+  - {seq: 2, filename: KR6s0132_002.yaml, hash: 'sha256:455bf8acadc9dad975e821727d1a2ed2fbfb152e5a7c2fd7d65570157baf5430'}
+  - {seq: 3, filename: KR6s0132_003.yaml, hash: 'sha256:226dd48c4fce93466a4e1ea3a559643f89de35e093a5ce412ef603a100a69655'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6s0132_000.markers.yaml, hash: 'sha256:e74c3be6c8adeb483f8d9559ffde4bd59c85aa241cfd6c99310cd3ed0cf0d66a'}
+  - {seq: 1, role: markers, filename: assets/KR6s0132_001.markers.yaml, hash: 'sha256:66dcecefc2e0a87fcf922560479032ee531e2c97ba13ea2823aa8e6b0e64437e'}
+  - {seq: 2, role: markers, filename: assets/KR6s0132_002.markers.yaml, hash: 'sha256:0d1d6fb14755e7c82a9ee0070294af1ea0d5fbb052ff57888786708b97293955'}
+  - {seq: 3, role: markers, filename: assets/KR6s0132_003.markers.yaml, hash: 'sha256:655cd2aca7eed1081087a0f1f48c240b462d8307c0e958e77db132e5e89b7154'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6s0132_T_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: 新編教藏總錄流衍序
+  type: mulu
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR6s0132_T_000-mulu-2
+    span:
+    - front
+    - 280
+    - 280
+  label: 新編諸宗教藏總錄序
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6s0132_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 5443
+  label: 新編諸宗教藏總錄卷第一
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6s0132_T_001-mulu-1
+    span:
+    - body
+    - 23
+    - 23
+  label: 海東有本見行錄上
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6s0132_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 1334
+  label: 新編諸宗教藏總錄卷第二
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6s0132_T_002-mulu-1
+    span:
+    - body
+    - 7
+    - 7
+  label: 海東有本見行錄中
+  type: mulu
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6s0132_T_003-juan-start
+    span:
+    - body
+    - 0
+    - 2931
+  label: 新編諸宗教藏總錄卷第三
+  type: juan
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6s0132_T_003-mulu-1
+    span:
+    - body
+    - 7
+    - 7
+  label: 海東有本見行錄下
+  type: mulu
+  level: 1
+hash: sha256:6adc54140486d5acdbcaafd2aaf05eb3fe3c97c97631e1a089de13164dd0e2ac
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
