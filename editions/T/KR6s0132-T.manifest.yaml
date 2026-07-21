@@ -19,12 +19,12 @@ metadata:
     short: T
 assets:
   parts:
-  - {seq: 0, filename: KR6s0132_000-T.yaml, hash: 'sha256:d19739a0e51d78dc712eaa47d33b4aeff02b2263f26adf544a17bce533f3f3a8'}
+  - {seq: 0, filename: KR6s0132_000-T.yaml, hash: 'sha256:8f630faa7317934688a147f944dd862c868eb4fb03b3f02ff588ecd500380f3a'}
   - {seq: 1, filename: KR6s0132_001-T.yaml, hash: 'sha256:903b0526be5287ee2f45258d5bb9dfb7fb1c38e8c37702cbc101475266abfdcb'}
   - {seq: 2, filename: KR6s0132_002-T.yaml, hash: 'sha256:bfc6062a2883f23cca2eec7c690bd2b72734b7e3490e9d249d06e48f4295b38e'}
   - {seq: 3, filename: KR6s0132_003-T.yaml, hash: 'sha256:86f17012e6b7f8e3fa82604e19ea471b7ae32f23203ce9d62cd965972f846f81'}
   markers:
-  - {seq: 0, role: markers, filename: assets/KR6s0132_000-T.markers.yaml, hash: 'sha256:f6bfad8dfebdc4a98cd9fa5713dd51eea7b7446ee2e36a72d4cab747c02d1a78'}
+  - {seq: 0, role: markers, filename: assets/KR6s0132_000-T.markers.yaml, hash: 'sha256:9fd2cbd1f4690d49d8a92ff7cca6031eba017b69c9fd194fd0b31683e2e859ca'}
   - {seq: 1, role: markers, filename: assets/KR6s0132_001-T.markers.yaml, hash: 'sha256:e2b00c2e6bd938a11fc7d002fcf153ac93bf6cd6c446daed89ce3c5eaa9f046b'}
   - {seq: 2, role: markers, filename: assets/KR6s0132_002-T.markers.yaml, hash: 'sha256:8c0384184299dc7beebd6292f67e1248c527ae54c31ef58df3e7e5503b576524'}
   - {seq: 3, role: markers, filename: assets/KR6s0132_003-T.markers.yaml, hash: 'sha256:b364c2a1b347dd86713033339403ff476257292587bb0c5e9e9d6f5d992695bf'}
@@ -33,7 +33,7 @@ table_of_contents:
     seq: 0
     marker_id: KR6s0132_T_000-mulu-1
     span:
-    - front
+    - body
     - 0
     - 0
   label: 新編教藏總錄流衍序
@@ -43,7 +43,7 @@ table_of_contents:
     seq: 0
     marker_id: KR6s0132_T_000-mulu-2
     span:
-    - front
+    - body
     - 280
     - 280
   label: 新編諸宗教藏總錄序
@@ -109,4 +109,4 @@ table_of_contents:
   label: 海東有本見行錄下
   type: mulu
   level: 1
-hash: sha256:7af2569888d70eb4c69abbe076dc91517c9cb1e94bb3371b7bdf27055d1a79f4
+hash: sha256:a4f13b954a3f035d9b729b83db1ac67529630511f61cf7b1f69c224612cb7f1b
